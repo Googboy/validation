@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.validation.MainActivity">
+
+    <EditText
+        android:id="@+id/et_notEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="非空验证"/>
+    <EditText
+        android:id="@+id/et_or1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="二选一验证"/>
+    <EditText
+        android:id="@+id/et_or2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="二选一验证"/>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="邮箱验证"/>
+    <EditText
+        android:id="@+id/et_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="重复密码验证"/>
+    <EditText
+        android:id="@+id/et_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="重复密码验证"/>
+    <EditText
+        android:id="@+id/et_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="网址验证"/>
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+
+</LinearLayout>
